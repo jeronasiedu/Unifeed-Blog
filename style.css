@@ -47,7 +47,7 @@ nav ul {
   opacity: 0;
 }
 nav ul.show-links {
-  height: 8.125rem;
+  height: 8.3rem;
   opacity: 1;
 }
 
@@ -55,6 +55,16 @@ nav ul li a {
   color: var(--secondary);
   text-decoration: none;
   transition: 0.5s ease;
+}
+nav ul li:last-of-type a {
+  background: hsl(204, 100%, 50%);
+  color: #fff;
+  padding: 0.4rem 0.5rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+}
+nav ul li:last-of-type a:hover {
+  background: hsl(204, 100%, 70%);
 }
 nav ul li a:hover {
   color: #000;
