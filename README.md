@@ -1,29 +1,40 @@
+# Welcome to Unifeed Blog Page 👋
 
-# Welcome to Codewell! 👋
+A blog page perfect for practicing both Flex and Grid. Beginner level built with HTML & CSS
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+## Authors
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+- [@jeronasiedu](https://www.github.com/jeronasiedu)
 
-### I've completed the challenge, now what?
+## Contributing
 
-We recommend using one of these two websites to deploy your projects
+Contributions are always welcome!
 
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
+Feel free to clone and do whatever you want
 
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+## Run Locally
 
+Clone the project
 
-### Submit your solution to Codewell
+```bash
+  git clone https://github.com/jeronasiedu/Unifeed-Blog.git
+```
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+Go to the project directory
 
-### Join our community on Slack
+```bash
+  cd Unifeed-Blog
+```
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+Start the server
 
+```bash
+  use vscode live server extension to preview the project
+```
 
-### Fonts Used
-https://fonts.google.com/specimen/Manrope
+## Demo
+
+Live Demo at
+
+[demo](https://unifeedblog.vercel.app)
+![Logo](https://github.com/jeronasiedu/Unifeed-Blog/blob/main/meta.jpg?raw=true)
