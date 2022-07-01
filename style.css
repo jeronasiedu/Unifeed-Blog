@@ -66,13 +66,17 @@ nav ul li a:hover {
   flex-direction: column;
   gap: 3rem;
 }
-.headline .article-image {
+.article-image {
   width: 100%;
   object-fit: cover;
 }
-.headline .content > *:not(:last-child) {
-  margin-bottom: 0.8rem;
+.headline .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
 }
+
 .headline .content h1 {
   font-size: 1.8rem;
 }
@@ -91,6 +95,28 @@ nav ul li a:hover {
   color: var(--secondary);
   font-size: 0.8rem;
 }
+
+/* MAIN NEWS STYLING */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding-block: 2rem;
+}
+.news > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.news p {
+  color: var(--secondary);
+}
+.news .article-image {
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.news .article-image:hover {
+  transform: scale(1.02);
+}
+
 /* MEDIA QUERIES TO SHOW MENUS */
 @media screen and (min-width: 768px) {
   .menu-toggle {
