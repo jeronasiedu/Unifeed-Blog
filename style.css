@@ -116,6 +116,17 @@ main {
 .news .article-image:hover {
   transform: translateY(-5px);
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+footer small {
+  color: var(--secondary);
+}
 
 /* MEDIA QUERIES TO SHOW MENUS */
 @media screen and (min-width: 768px) {
@@ -139,5 +150,8 @@ main {
   }
   .headline .article-image {
     width: 22rem;
+  }
+  footer {
+    flex-direction: row;
   }
 }
