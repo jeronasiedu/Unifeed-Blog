@@ -114,7 +114,7 @@ main {
   cursor: pointer;
 }
 .news .article-image:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);
 }
 
 /* MEDIA QUERIES TO SHOW MENUS */
